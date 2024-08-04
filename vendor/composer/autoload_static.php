@@ -33,8 +33,8 @@ class ComposerStaticInit1d30ad2c4cb32d033c24ddf065d320e3
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -42,7 +42,7 @@ class ComposerStaticInit1d30ad2c4cb32d033c24ddf065d320e3
         ),
         'HeroOpenWeather\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/HeroOpenWeather',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
