@@ -8,7 +8,7 @@ A simple PHP package to fetch weather data using latitude and longitude.
 You can install this package via Composer:
 
 ```sh
-composer require gitwa2/hero-open-weather-php
+composer require gitwa2/hero-open-weather-php:dev-main
 ```
 
 ## Usage
