@@ -16,5 +16,13 @@
         "psr-4": {
             "HeroOpenWeather\\": "src/HeroOpenWeather/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gitwa2/hero-open-weather-php"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
