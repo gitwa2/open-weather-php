@@ -1,0 +1,31 @@
+# Composer dependency directory
+/vendor/
+
+# Composer lock file
+composer.lock
+
+# PHPStorm project files
+.idea/
+
+# PHPStorm specific files
+*.iml
+
+# Eclipse project files
+.project
+.buildpath
+
+# NetBeans project files
+/nbproject
+
+# VS Code directory
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+/tmp
+/temp
