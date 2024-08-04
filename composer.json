@@ -1,0 +1,26 @@
+{
+    "name": "gitwa2/hero-open-weather-php",
+    "description": "A simple PHP package to fetch weather data using latitude and longitude.",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Milad Davoodabadi",
+            "email": "milad.davoodabadi@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HeroOpenWeather\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gitwa2/open-weather-php"
+        }
+    ]
+}
